@@ -5,18 +5,18 @@ difference(){
 			cylinder(h=100, r=4);
 		}
 	}
-	translate([7.5,-45,0]){
+	translate([7.5,-45,-5]){
 		cylinder(h=10, r = 1.5);
 	}
-	translate([7.5,45,0]){
-		cylinder(h=10, r = 1.5);
-	}
-
-	translate([-7.5,-45,0]){
+	translate([7.5,45,-5]){
 		cylinder(h=10, r = 1.5);
 	}
 
-	translate([-7.5,45,0]){
+	translate([-7.5,-45,-5]){
+		cylinder(h=10, r = 1.5);
+	}
+
+	translate([-7.5,45,-5]){
 		cylinder(h=10, r = 1.5);
 	}
 
